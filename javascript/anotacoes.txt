@@ -145,4 +145,17 @@ DOM
             querySelector()
             querySelectorAll()
 
+    Eventos DOM
+        Documentação dos eventos
+        https://developer.mozilla.org/pt-BR/docs/Web/Events
+        Eventos de mouse
+            mouseenter
+            mousemove
+            mousedown
+            mouseup
+            mouseout
+            click
+
+
+
 
