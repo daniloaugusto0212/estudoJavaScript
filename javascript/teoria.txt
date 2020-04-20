@@ -1,0 +1,20 @@
+Evolução do JavaScript:
+
+1970 => Surge a Internet
+1993 => Surge o HTML, WWW, o primeiro navegador Moisaic
+1994 => Surge o navegador Netscape
+1995 => Surge o JavaScript, que iniciamente se chamava Mooca
+1997 => Foi padronizado como ECMA
+2002 => Surge o Mozilla
+2008 => Surge o Google Chrome
+2010 => Surge o Node, que roda o JavaScript fora do navegador
+
+
+Guias de referêcia:
+
+https://developer.mozilla.org/pt-BR/
+https://www.ecma-international.org/
+
+
+
+
