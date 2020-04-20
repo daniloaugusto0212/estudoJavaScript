@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu programa 3</title>
+    <style>
+        body{
+            background-color: rgb(105, 105, 189);
+            color: white;
+            font: normal 20pt Arial;
+            /*Comentário em css*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>       
+        var n1 = parseInt(prompt('Digite um número: ')) //recebe o valor em string necessário parseInt para converter em inteiro
+        var n2 = parseFloat(prompt('Digite outro número: '))//recebe o valor em string necessário parseFloat para converter em Flutuante
+        var n3 = Number(prompt('Digite o terceiro número: ')) //recebe o valor em string e converte para número int ou float, dependendo de como foi digitado
+        var s = n1 + n2 + n3
+        alert(`A soma entre ${n1}, ${n2} e ${n3} é ${s}`)
+    </script>
+</body>
+</html>

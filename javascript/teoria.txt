@@ -41,6 +41,22 @@ Regras para variáveis:
 
             >> typeof => mostra o tipo da variável ou do valor
 
+Formatando Strings:
+    var s = 'JavaScript'
+    'Eu estou aprendendo s' //não faz interpolação
+    'Eu estou aprendendo ' + a //faz concatenação
+    `Eu estou aprendendo ${s}` //usa template string
+
+    s.lengh  //quantos caracteres a string tem
+    s.tUpperCase() //tudo para MAIÚSCULAS
+    s.toLowerCase() //tudo para minúsculas
+
+Fromatando números
+    var n1 = 1543.5
+    n1.toFixed(2) //mostra com duas casas decimais
+    n1.toFixed(2).replace('.', ',') //troca o ponto por vírgula
+    n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //tranforma em real Brasileiro
+
 
 
 
