@@ -58,6 +58,36 @@ Fromatando números
     n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) //tranforma em real Brasileiro
 
 
+Operadores:
+    aritméticos
+    atribuição
+    relacionais
+    lógicos
+    ternário
+
+    Aritméticos:
+        + adição
+        - subtração
+        * multiplicação
+        / divisão
+        % resto da divisão ex: 5 % 2 = 1  
+        ** exponênciação ex: 5 ** 2 = 25
+
+        Ordem de precedência
+            ()
+            **
+            *  /  %
+            +  -
+    atribuição
+        n = 10 atribui o valor 10 á variável n
+        n++ soma 1 a variável n 
+        n-- subtrai 1 da variável n 
+        n+=5 atribui a variável n o valor anterior dela + 5 
+        n+=5 atribui a variável n o valor anterior dela - 5 
+        n/=2 n+=5 atribui a variável n o valor anterior dela / 2
+        n*=5 atribui a variável n o valor anterior dela * 2 
+
+    
 
 
 
