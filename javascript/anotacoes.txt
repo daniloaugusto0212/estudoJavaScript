@@ -116,7 +116,33 @@ Operadores:
 
 
 
-    
+DOM
+    Árvore DOM
+        window
+            location
+            document
+                html 
+                    head
+                        meta
+                        title
+                    body
+                        h1
+                        p 
+                            strong 
+                        div 
+            history
 
+    Métodos de seleção
+        por Marca
+            getElementsByTagName()
+        por ID 
+            getElementsById()
+        por Nome 
+            getElementsByClassName()
+        por Classe 
+            getElementsByClassName()
+        por Seletor 
+            querySelector()
+            querySelectorAll()
 
 

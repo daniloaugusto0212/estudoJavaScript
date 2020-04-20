@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: #63638d;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+   <h1>Iniciando estudos DOM</h1> 
+   <p>Aqui vai o resultado</p>
+   <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript. </p>
+   <div id="msg" >Clique em mim</div>
+   <script>
+       /*window.document.write(window.document.characterSet)
+       document.write('<br>')
+       window.document.write(window.navigator.appName)
+       document.write('<br>')
+       window.document.write(window.document.URL)*/
+
+        /*Usando a tag*/
+        var p1 = document.getElementsByTagName('p')[0] //pega  elemento com a tag p que aparecer primeiro
+        document.write(p1.innerText) //mostra o texto
+        document.write(p1.innerHTML) //mosra o html formatado
+
+        var p2 = document.getElementsByTagName('p')[1] //pega o segundo elemento com a tag p que aparecer
+        document.write(p2.innerText)
+        p2.style.color = 'blue' //altera a cor 
+
+        /*Usando ID*/
+        var q = document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+
+        /*Usando selctor*/
+        var q = document.querySelector('div#msg')
+        q.style.background = 'blue'
+        q.innerText = 'Estou aguardando...'
+
+
+
+
+   </script>
+</body>
+</html>
