@@ -1,19 +1,46 @@
 Evolução do JavaScript:
 
-1970 => Surge a Internet
-1993 => Surge o HTML, WWW, o primeiro navegador Moisaic
-1994 => Surge o navegador Netscape
-1995 => Surge o JavaScript, que iniciamente se chamava Mooca
-1997 => Foi padronizado como ECMA
-2002 => Surge o Mozilla
-2008 => Surge o Google Chrome
-2010 => Surge o Node, que roda o JavaScript fora do navegador
+    1970 => Surge a Internet
+    1993 => Surge o HTML, WWW, o primeiro navegador Moisaic
+    1994 => Surge o navegador Netscape
+    1995 => Surge o JavaScript, que iniciamente se chamava Mooca
+    1997 => Foi padronizado como ECMA
+    2002 => Surge o Mozilla
+    2008 => Surge o Google Chrome
+    2010 => Surge o Node, que roda o JavaScript fora do navegador
 
 
 Guias de referêcia:
 
-https://developer.mozilla.org/pt-BR/
-https://www.ecma-international.org/
+    https://developer.mozilla.org/pt-BR/
+    https://www.ecma-international.org/
+
+Regras para variáveis:
+
+    Podem começar com letra, $ ou _
+    Não podem começar com números
+    É possível usar letras ou números
+    É possível usar acentos e símbolos
+    Não podem conter espaços
+    Não podem ser palavras reservadas
+
+    Dicas:
+        Maiúsculo e minúsculo fazem diferença
+        Usar nomes coerentes
+
+    Tipos primitivos primordiais:
+        number => 5 -12 0.5 0.14 
+        string = "Danilo" 'Danilo' `Danilo`
+        boolean = true false
+
+         Outros tipos:
+            null
+            undefined
+            object
+            function
+
+            >> typeof => mostra o tipo da variável ou do valor
+
 
 
 
