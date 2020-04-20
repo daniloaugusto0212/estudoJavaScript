@@ -87,6 +87,35 @@ Operadores:
         n/=2 n+=5 atribui a variável n o valor anterior dela / 2
         n*=5 atribui a variável n o valor anterior dela * 2 
 
+    relacionais
+        > maior
+        < menor
+        >= maior ou igual
+        <= menor ou igual
+        == igual
+        === idêntico(verifica se os valores são iguas e do mesmo tipo)
+        != diferente
+        sempre irá retornar um valor boolean, true ou false
+        ex 5 == '5' retorna true
+           5 === '5' retorna false
+
+    lógicos
+        ! negação  not
+        && conjunção and  
+        || disjunção or 
+
+        ordem de precedência
+            !
+            &&
+            ||
+
+    ternário
+        ?
+        :
+        condição ? se for verdadeiro executa aqui :se for falso executa aqui 
+
+
+
     
 
 
