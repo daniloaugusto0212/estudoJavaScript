@@ -157,9 +157,36 @@ DOM
             click
 
 Condições:
-    if
-    else
-    
+    condição simples
+        if
+
+    condição composta
+        if
+        else
+
+    condição aninhada
+        if
+            if
+            else
+        elseif
+
+        else
+
+    condição múltipla
+        switch(expressao){
+            case 1:
+
+                break
+            case 2:
+
+                break
+            case 3:
+
+                break
+            default:
+
+        }
+
 
 
 
