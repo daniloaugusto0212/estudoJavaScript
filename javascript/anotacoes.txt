@@ -190,6 +190,7 @@ Condições:
 Estrutura de Repetição
     while //verifica depois executa
     do while //executa depois verifica
+    for
 
 
 
