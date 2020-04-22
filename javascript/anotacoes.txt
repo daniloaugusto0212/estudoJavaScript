@@ -193,6 +193,11 @@ Estrutura de Repetição
     for
 
 
+Variáveis compostas
+    Armazena vários valores
+    como declarar => let num = []
+
+
 
 
 
