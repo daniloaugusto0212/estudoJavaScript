@@ -198,6 +198,12 @@ Variáveis compostas
     como declarar => let num = []
 
 
+Funções
+    São executadas assim que são chamadas ou em decorrência de um evento.
+    Uma funcção pode receber parâmetros e pode retornar um resultado
+    
+
+
 
 
 
