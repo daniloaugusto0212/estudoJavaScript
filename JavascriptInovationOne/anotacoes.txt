@@ -1,0 +1,43 @@
+JAVASCRIPT ES6
+
+História e conceitos:
+    Lançado em setembro de 1995
+    Criado por Brendan Eich 
+
+ECMAScript
+    Especificação da linguagem de programação 
+
+Fluxo de proposta
+    Stage 0: strawman
+    Stage 1: proposal
+    Stage 2: draft
+    Stage 3: candidate
+    Stage 4: finished
+
+conceitos da linguagem
+    Linguagem interpretada
+    LInguagem de tipagem fraca e dinâmica
+
+
+Funções de primeira classe e ordem maior
+Closure => capacidade de uma função lembrar de onde ela foi criada
+
+Currying => É a técnica de tranformar uma função com vários parâmetros em uma função com apenas um parâmetros
+Hoisting => Levantar ou suspender algo
+Imutabilidade => 
+
+Tipos e variáveis
+    var 
+    let 
+    const
+
+Tipos de variáveis
+    -string
+    -number
+    -boolean
+    -null
+    -undefined
+    -symbol
+    -Object
+    -Function
+    -Array
