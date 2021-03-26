@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Idade</title>
+</head>
+
+<body>
+    <script>
+        var anoNascimento = prompt('Informe ao ano do seu nascimento: ');
+
+        while (anoNascimento >= 2021) {
+            alert('Ano de nascimento inválido!');
+            anoNascimento = prompt('Informe ao ano do seu nascimento: ');
+        }
+        var anoAtual = prompt('Ano atual: ')
+
+        var idadeFinal = anoAtual - anoNascimento;
+
+        alert('A idade final é ' + idadeFinal)
+    </script>
+</body>
+
+</html>
