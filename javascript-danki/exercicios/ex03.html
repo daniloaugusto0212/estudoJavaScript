@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Dinâmica</title>
+</head>
+
+<body>
+    <script>
+
+        var num1 = prompt("Informe o primeiro número: ");
+
+        var sinal = prompt('Informe o sina/ da operação: -, +, *, /');
+
+        while (sinal != '-' && sinal != '+' && sinal != '*' && sinal != '/') {
+            alert('POr favor, informe um sinal válido!')
+            sinal = prompt('Informe o sinal da operação: ');
+        }
+
+        var num2 = prompt('Informe o segundo número: ');
+
+        num1 = parseInt(num1);
+        num2 = parseInt(num2);
+
+        var resultado = 0;
+        switch (sinal) {
+            case '-':
+                resultado = num1 - num2;
+                break;
+            case '+':
+                resultado = num1 + num2;
+                break;
+            case '*':
+                resultado = num1 * num2;
+                break;
+            case '/':
+                resultado = num1 / num2;
+                break;
+            default:
+                break;
+        }
+
+        alert('O resultado da sua operação é ' + resultado);
+    </script>
+</body>
+
+</html>
