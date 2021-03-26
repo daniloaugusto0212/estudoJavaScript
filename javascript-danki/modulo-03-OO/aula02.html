@@ -11,18 +11,14 @@
 <body>
 
     <script>
-        var pessoas = [{
-            'nome': 'Danilo',
-            'idade': 35,
-            'profissao': 'programador'
-        },
-        {
-            'nome': 'Guilherm',
-            'idade': 27,
-            'profissao': 'programador'
-        }];
+        function Pessoa() {
+            this.nome = 'Danilo';
+        }
 
-        alert(pessoas[0].idade);
+        var pessoa = new Pessoa();
+        pessoa.nome = 'João';
+
+        alert(pessoa.nome);
     </script>
 </body>
 
