@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+
+<body>
+
+    <script>
+        function Pessoa() {
+            this.nome = 'Danilo';
+            this.idade = 35;
+            this.printNome = function(numero){
+                alert(numero)
+            }
+        }
+
+        function Animal(nome) {
+            this.nome = nome;
+            this.peso = "12kg";
+        }
+
+        animal = new Animal("Cachorro");
+
+        anima2 = new Animal("Gato");
+
+        alert(animal.nome);
+
+        alert(anima2.nome);
+
+
+    </script>
+</body>
+
+</html>
