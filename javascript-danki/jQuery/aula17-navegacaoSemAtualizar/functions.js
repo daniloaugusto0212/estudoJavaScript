@@ -16,8 +16,8 @@ $(function () {
                         console.log("Página não encontrada")
                     }
                 },
-                'success': function (data) {
-                    //$('#container').html(data)
+                'success': function (data) {    
+                    $('#container').html('')
                     $(data).appendTo('#container').fadeIn();
                 }
             })
