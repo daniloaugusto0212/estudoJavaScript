@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Necessário para plugin jsSocial-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/jssocials.css">
+    <link rel="stylesheet" href="css/jssocials-theme-flat.css">
+
+    <!--Necessário para plugin FancyBox-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Plugins jQuery</title>
+</head>
+<body>
+
+    <article>
+        <header>
+            <h2>Tíutulo do meu artigo</h2>
+        </header>
+        <p>Meu conteúdo</p>
+    </article>
+    <br><br><br>
+    <hr>    
+    <h4>Plugin jsSocials</h4>
+    <div id="social-share">
+        
+    </div>
+    <!-- /#social-share -->
+    <br><br><br>
+    <hr>
+
+    <h4>Plugin Mask</h4>
+    <input type="text" name="telefone" id="" placeholder="Telefone">
+    <input type="text" name="data" id="" placeholder="Data">
+    <br><br><br>
+    <hr>
+
+    <h4>Plugin FancyBox</h4>
+    
+    <a  data-fancybox="gallery"
+    data-caption="Texto da Imagem" href="../aula18-slides/img/1.jpg"><img src="../aula18-slides/img/1.jpg" alt=""></a>
+
+    <a data-fancybox="gallery" data-caption="Texto da Imagem"  href="../aula18-slides/img/2.jpg"><img src="../aula18-slides/img/2.jpg" alt=""></a>
+
+    <!--Pode-se usar código HTML dentro da data-caption-->
+    <a data-fancybox="gallery" data-caption="<a href='https://google.com'>teste</a>" href="../aula18-slides/img/3.jpg"><img src="../aula18-slides/img/3.jpg" alt=""></a>
+    
+
+
+
+
+    <script src="../js/jquery-3.6.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <!--Necesário para plugin FancyBox-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/jssocials.min.js"></script>
+
+    
+</body>
+</html>
